@@ -2,12 +2,17 @@
   aspect-ratio: 1 / 1;
   padding: 10px;
   font-size: 18px;
-  font-family: "UD デジタル 教科書体 NP-R", "BIZ UDゴシック Regular",
-    "Hiragino Kaku Gothic ProN", "ascii";
+  body {
+    font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic,
+      "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN",
+      "ＭＳ Ｐゴシック", sans-serif;
+  }
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 5px 5px 10px #bababa, -5px -5px 10px #ffffff;
+  box-shadow:
+    5px 5px 10px #bababa,
+    -5px -5px 10px #ffffff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -20,5 +25,7 @@
 
 .button:active {
   background: #e0e0e0;
-  box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+  box-shadow:
+    inset 5px 5px 10px #bababa,
+    inset -5px -5px 10px #ffffff;
 }
