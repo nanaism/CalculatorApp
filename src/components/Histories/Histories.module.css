@@ -1,0 +1,27 @@
+.history {
+  width: 300px;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 11px #bebebe, -5px -5px 11px #ffffff;
+  font-family: "UD デジタル 教科書体 NP-R", "BIZ UDゴシック Regular",
+    "Hiragino Kaku Gothic ProN", "ascii";
+  transition: all 0.3s ease;
+}
+
+.history h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.history li {
+  margin-bottom: 10px;
+}

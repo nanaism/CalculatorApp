@@ -1,0 +1,24 @@
+.button {
+  aspect-ratio: 1 / 1;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "UD デジタル 教科書体 NP-R", "BIZ UDゴシック Regular",
+    "Hiragino Kaku Gothic ProN", "ascii";
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 5px 5px 10px #bababa, -5px -5px 10px #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  transform: translate(2px, 2px);
+}
+
+.button:active {
+  background: #e0e0e0;
+  box-shadow: inset 5px 5px 10px #bababa, inset -5px -5px 10px #ffffff;
+}
